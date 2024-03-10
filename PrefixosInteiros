@@ -1,0 +1,18 @@
+#include <stdio.h>
+main() {
+	short age;
+	int amount;
+	long accountNumber;
+	
+	printf("Your age: ");
+	scanf("%hd", &age);
+	
+	printf("Value Amount: ");
+	scanf("%d", &amount);
+	
+	printf("Account Number: ");
+	scanf("%ld", &accountNumber);
+	
+	printf("\nA person with %hd years has been a baking deposited, in value of %d at account number %ld\n", age, amount, accountNumber);
+	
+}
