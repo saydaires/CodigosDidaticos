@@ -1,0 +1,16 @@
+#include <stdio.h>
+main() {
+	int a = 4, b = 3, c = 2, d = 1;
+	
+	printf("a = %d\nb = %d\nc = %d\nd = %d\n", a, b, c, d);
+	
+	printf("\nAPOS O PROCESSO DE ATRIBUICAO\n");
+	
+	printf("a = b = c = d = 5;\n");
+	
+	printf("Todos as variaveis terao VALOR 5;\n\n");
+	
+	a = b = c = d = 5;
+	
+	printf("a = %d\nb = %d\nc = %d\nd = %d\n", a, b, c, d);
+}
