@@ -1,0 +1,11 @@
+#include <stdio.h>
+main() {
+	char ch;
+	
+	printf("\t### THE ASCII CODE BETWEEN TYPE CHAR AND INT ###\n\n");
+	
+	printf("Write the character: ");
+	ch = getchar();
+	
+	printf("The char '%c' have CSII code being '%d'\n", ch, (int) ch);
+}
